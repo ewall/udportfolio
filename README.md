@@ -63,3 +63,18 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+
+### PageSpeed Insights Results ###
+
+*Before:* Desktop: 87, Mobile: 73
+
+My optimizations:
+
+* added media query for print.css
+* call analytics.js with async option
+* optimized all 4 images
+* minified CSS and JavaScript
+* removed Google Fonts
+* inlined the CSS
+
+*After:* Desktop: 96, Mobile: 97
